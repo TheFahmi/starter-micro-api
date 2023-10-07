@@ -1,13 +1,22 @@
 {
-  "name": "starter-micro-api",
-  "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-  }
+    "name": "kcic-reminder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+      "node": "18.x"
+    },
+    "dependencies": {
+        "node-telegram-bot-api": "^0.53.0",
+        "axios": "1.5.1"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "devDependencies": {
+      "@types/node": "^17.0.42",
+      "@vercel/node": "^2.9.6"
+    }
+  
 }
